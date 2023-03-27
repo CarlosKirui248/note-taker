@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+html {
+  height: 300vh;
+}
+body {
+
+  font-family: Fira Code;
+background: rgba( 8, 0, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*   max-width:90rem; */
+  padding-left: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;  
+}
+
+.notes-el {
+background: rgba( 0, 0, 0, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding-left: 20px;
+/*   background:  */
+  display: flex;
+  height: 200px;
+  width: 200px;
+  float: left;
+  color: #f7f3f3;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 10px;
+  border-color:transparent;
+}
+
+#parent {
+/*   background: green; */
+  padding-left: 2rem;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#text-area {
+  font-family: Fira Code;
+background: rgba( 0, 0, 0, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding-left: 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+  
+/* background: rgba( 0, 0, 0, 0.4 ); */
+background: rgba( 0, 0, 0, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  height: 50px;
+  width: 100px;
+  color: white;
+  border-radius: 10px;
+  transition: 1s;
+/*   transition: 1px solid black 1s; */
+}
+
+button:hover {
+  transition: 1s;
+  color: white;
+  background: rgba( 8, 6, 34, 0.9 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+}
